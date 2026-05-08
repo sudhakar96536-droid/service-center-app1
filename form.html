@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Complaint Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: Arial;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 6px;
+            border: 2px solid #ccc;
+        }
+
+        .error {
+            color: red;
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: green;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        h2 { text-align: center; }
+
+        /* PRODUCT BOX */
+        .product-box {
+            border: 3px solid #28a745;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            background: #f9fff9;
+        }
+
+        /* COURIER BOX */
+        #courierBox {
+            border: 2px solid orange;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+            background: #fff7e6;
+            display: none;
+        }
+        .warning {
+            color: red !important;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        /* DESKTOP SIDE IMAGES */
+.side-img {
+    position: fixed;
+    top: 0;
+    width: 30%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.left-img {
+    left: 0;
+}
+
+.right-img {
+    right: 0;
+}
+
+.side-img img {
+    width: 100%;
+    object-fit: contain;   /* prevents zoom/crop */
+    transform: scale(0.5); /* reduce to 50% */
+}
+
+/* Make sure center stays above */
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Hide images on mobile */
+@media (max-width: 768px) {
+    .side-img {
+        display: none;
+    }
+}
+        
+.required {
+    color: red;
+    font-weight: bold;
+}
+
+.remove-btn {
+    width: 25%;
+    padding: 12px;
+    background: #ffb3b3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: auto;
+    display: block;
+}        
+.add-btn {
+    width: 100%;
+    padding: 12px;
+    background: grey;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}                
+.sub-btn {
+    width: 100%;
+    padding: 12px;
+    background: grey;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
+#tc_accepted {
+    margin-right: 8px;
+}
+
+label {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    text-align: left;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-top: 3px; /* optional for better vertical alignment */
+}
+    </style>
+</head>
+
+<body>
+<!-- LEFT IMAGE -->
+<div class="side-img left-img">
+    <img src="{{ url_for('static', filename='11.jpg') }}">
+</div>
+
+<!-- RIGHT IMAGE -->
+<div class="side-img right-img">
+    <img src="{{ url_for('static', filename='22.jpg') }}">
+</div>
+    
+<div class="container">
+
+    <div style="text-align:center;">
+        <img src="{{ url_for('static', filename='1logo.jpg') }}" style="max-width:120px;">
+    </div>
+
+    <h2>Product Complaint Registration</h2>
+
+    <form id="myForm" action="/submit" method="POST" enctype="multipart/form-data">
+        <p style="color:red; font-size:13px;">
+            * indicates required fields
+        </p>
+        <!-- CUSTOMER TYPE -->
+        <select name="customer_type" id="customer_type" required>
+            <option value="">Select Customer Type *</option>
+            <option value="DIRECT CUSTOMER">DIRECT CUSTOMER</option>
+            <option value="PARTNERS">PARTNERS</option>
+        </select>
+        <div class="error" id="customerTypeError"></div>
+
+        <!-- MOBILE -->
+        <input type="tel" id="mobile" name="mobile" placeholder="Mobile Number *" minlength="10" maxlength="10" pattern="[0-9]{10}" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required>
+
+        <!-- SEARCH -->
+        <input type="tel" id="search_mobile" name="search_mobile" placeholder="Search By Mobile No" style="display:none;">
+
+        <!-- NAME -->
+        <input type="text" name="name" id="name" placeholder="Customer Name *" style="text-transform: uppercase;" required>
+
+        <!-- ADDRESS -->
+        <input type="text" id="address" name="address" placeholder="Address Line 1 *" style="text-transform: uppercase;" required>
+        <input type="text" id="address1" name="address1" placeholder="Address Line 2 *" style="text-transform: uppercase;" required>
+        <input type="text" id="city" name="city" placeholder="City *" style="text-transform: uppercase;" required>
+        <input type="text" id="pincode" name="pincode" placeholder="Pincode *" minlength="6" maxlength="6" pattern="[0-9]{6}" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required>
+
+        <select name="state" id="state" required>
+            <option value="">Select State *</option>
+            {% for s in states %}
+                <option value="{{s}}">{{s}}</option>
+            {% endfor %}
+        </select>
+
+        <!-- EMAIL / GST -->
+        <input type="email" id="email" name="email" placeholder="Email">
+        <input type="text" id="gstin" name="gstin" placeholder="GSTIN" style="text-transform: uppercase;">
+
+        <!-- REMARKS -->
+        <input type="text" name="remarks" placeholder="Remarks">
+
+        <hr>
+       
+        <h3>Products</h3>
+        <div id="productList"></div>
+
+        <button type="button" class="add-btn" onclick="addProduct()">+ Add Product</button>        
+
+        <hr>
+
+        <hr>
+
+        <h3>Service Mode</h3>
+
+        <select name="service_mode" id="service_mode" required>
+            <option value="">Select Option *</option>
+            <option value="SERVICE CENTRE">SERVICE CENTRE</option>
+            <option value="COURIER">COURIER</option>
+        </select>
+
+        <div id="courierBox">
+                             
+            <input type="text" name="courier_name" placeholder="Courier Name" style="display:none;">
+            <input type="text" name="docket_no" placeholder="Courier Docket No" style="display:none;">
+            <label style="display:none;">Docket Date</label>
+            <input type="date" name="docket_date" placeholder="Docket Date" style="display:none;">
+            <input type="number" name="no_boxes" placeholder="No of Boxes" style="display:none;">
+            <input type="number" name="no_items" placeholder="No of Items" style="display:none;">
+            <label style="display:none;">Weight in KGS only</label>
+            <input type="text" name="weight" placeholder="Weight" style="display:none;">
+            <input type="text" name="courier_remarks" placeholder="Courier Remarks" style="display:none;">
+            <label style="display:none;">Upload Packed Box Image (Max 1MB (Images only))</label>
+            <input type="file" name="courier_image" id="courier_image" accept="image/*" style="display:none;">
+            <div class="error" id="courierFileError"></div>
+            <select name="to_branch" id="to_branch">
+                <option value="">Select Branch</option>
+            </select>
+            <textarea name="branch_address" id="branch_add1" placeholder="Branch Address" readonly rows="6"></textarea>
+        </div>
+        
+        <hr>        
+
+        <br>
+        
+        <label>
+            <input type="checkbox" id="tc_accepted" name="tc_accepted" required>
+            I have read, understood and accepted the <span class="required">*</span> <a href="https://zebronics.com/policies/privacy-policy" target="_blank">Privacy Policy.</a>
+        </label>
+
+        <label>
+            <input type="checkbox" id="tc_accepted1" name="tc_accepted1">
+            I consent to receive promotional communications via WhatsApp <a href="/learn_more" target="_blank">Learn More.</a>
+        </label>
+ 
+        <br>
+        <br>
+        <button type="submit" class="sub-btn">Submit</button>
+        <br>
+        <br>
+        <button type="button" onclick="confirmReset()" style="background: #ffb3b3;">Reset Form</button>
+
+    </form>
+</div>
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+
+<script>
+    
+const branchData = {{ branches | tojson }};
+const onlineList = {{ online_list | tojson }};
+    
+function initSelect2() {
+    $('.product-select').select2({
+        width: '100%',
+        placeholder: "Search Product",
+        allowClear: true,
+        minimumInputLength: 1,
+        ajax: {
+            url: "/search-products",
+            dataType: "json",
+            delay: 250,
+            data: function (params) {
+                return { q: params.term };
+            },
+            processResults: function (data) {
+                return { results: data.items };
+            }
+        }
+    });
+}
+
+function addProduct() {
+
+    let div = document.createElement("div");
+    div.classList.add("product-box");
+
+    div.innerHTML = `
+        <select name="product[]" placeholder="Product Name *" class="product-select" required></select>
+
+        <input type="number" name="qty[]" placeholder="Qty *" value="1" min="1" required>
+
+        <!-- PURCHASE TYPE -->
+        <select name="purchase_type[]" class="purchase-type" required>
+            <option value="">Purchase Type *</option>
+            <option value="OFFLINE">Offline</option>
+            <option value="ONLINE">Online</option>
+        </select>
+
+        <!-- OFFLINE -->
+        <input type="text" name="shop_name[]" class="shop-name" placeholder="Shop Name *" style="display:none;">
+    
+        <!-- ONLINE -->
+        <select name="online_platform[]" class="online-platform" placeholder="Select Platform *" style="display:none;">
+            <option value="">Select Platform *</option>
+        </select>
+
+        
+        <select name="problem[]" class="problem-select" required>
+            <option value="">Select Problem *</option>
+            {% for p in problems_list %}
+                <option value="{{p}}">{{p}}</option>
+            {% endfor %}
+        </select>
+        
+        <input type="text" name="serial[]" placeholder="Serial Number *" required>
+
+        <select name="warranty[]" required>
+            <option value="">SELECT WARRANTY *</option>
+            <option value="UNDER WARRANTY">UNDER WARRANTY</option>
+            <option value="OUT OF WARRANTY">OUT OF WARRANTY</option>
+        </select>
+
+        <input type="text" name="bill[]" placeholder="Bill Number * (As per Purchase Bill)" required>
+        <label name="l1" class="l1">Bill Date *</label>
+        <input type="date" name="date[]" required>
+
+        <!-- ✅ NEW -->
+        <label name="l2" class="l2">Upload Invoice * (Max 1MB (Images only))</label>
+        <input type="file" name="invoice[]" class="invoice-file" accept="image/*,.pdf" required>
+        <div class="error file-error"></div>
+
+
+        <button type="button" class="remove-btn" onclick="this.parentElement.remove()">Remove</button>
+    `;
+
+    document.getElementById("productList").appendChild(div);
+
+    initSelect2();
+    applyPartnerRules();
+}
+
+    
+    function confirmReset() {
+        let ok = confirm("Are you sure you want to clear the form?");
+    
+        if (ok) {
+            document.getElementById("myForm").reset();
+            document.getElementById("productList").innerHTML = "";
+            addProduct();
+    }
+}
+
+
+window.onload = function () {
+
+    if (sessionStorage.getItem("clearProducts") === "true") {
+
+        document.getElementById("productList").innerHTML = "";
+        addProduct();
+
+        sessionStorage.removeItem("clearProducts");
+
+    } else {
+        addProduct();
+    }
+};
+
+document.getElementById("service_mode").addEventListener("change", function () {
+    document.getElementById("courierBox").style.display =
+        this.value === "COURIER" ? "block" : "none";
+});
+
+document.getElementById("myForm").addEventListener("submit", function(e){
+
+    let valid = true;
+
+    document.querySelectorAll(".product-box").forEach(box => {
+
+        let type = box.querySelector(".purchase-type").value;
+        let shop = box.querySelector(".shop-name");
+        let online = box.querySelector(".online-platform");
+
+        if (type === "OFFLINE" && !shop.value) {
+            alert("Please enter Shop Name");
+            valid = false;
+        }
+
+        if (type === "ONLINE" && !online.value) {
+            alert("Please select Online Platform");
+            valid = false;
+        }
+    });
+
+    if (!valid) {
+        e.preventDefault();
+        return;
+    }
+
+    // your existing confirm
+    let ok = confirm("Are you sure you want to submit?");
+    if(!ok) e.preventDefault();
+
+});
+
+document.addEventListener("change", function(e) {
+
+    if (e.target.classList.contains("invoice-file")) {
+
+        let file = e.target.files[0];
+        let errorDiv = e.target.nextElementSibling;
+
+        if (!file) return;
+
+        if (file.size > 1 * 1024 * 1024) {
+            errorDiv.innerText = "Max 1MB only";
+            e.target.value = "";
+        } else {
+            errorDiv.innerText = "";
+        }
+    }
+});
+
+document.getElementById("courier_image").addEventListener("change", function () {
+
+    let file = this.files[0];
+    let errorDiv = document.getElementById("courierFileError");
+
+    if (!file) return;
+
+    if (file.size > 1 * 1024 * 1024) {
+        errorDiv.innerText = "Max 1MB only";
+        this.value = "";
+    } else {
+        errorDiv.innerText = "";
+    }
+});
+
+document.querySelector("select[name='state']").addEventListener("change", function () {
+
+    let selectedState = this.value;
+    let branchDropdown = document.getElementById("to_branch");
+
+    // Clear old options
+    branchDropdown.innerHTML = '<option value="">Select Branch</option>';
+
+    if (selectedState && branchData[selectedState]) {
+
+        branchData[selectedState].forEach(item => {
+
+            let opt = document.createElement("option");
+            opt.value = item.branch;
+            opt.textContent = item.branch;
+
+            // ✅ only add1
+            opt.dataset.add1 = item.add1;
+            
+            branchDropdown.appendChild(opt);
+        });
+    }
+});
+
+document.getElementById("to_branch").addEventListener("change", function () {
+
+    let selectedOption = this.options[this.selectedIndex];
+
+    let add1 = selectedOption.dataset.add1 || "";
+
+    document.getElementById("branch_add1").value = add1;
+});
+
+document.addEventListener("change", function(e) {
+
+    if (e.target.classList.contains("purchase-type")) {
+
+        let parent = e.target.closest(".product-box");
+
+        let shopInput = parent.querySelector(".shop-name");
+        let onlineDropdown = parent.querySelector(".online-platform");
+
+        shopInput.style.display = "none";
+        onlineDropdown.style.display = "none";
+
+        if (e.target.value === "OFFLINE") {
+            shopInput.style.display = "block";
+        }
+
+        if (e.target.value === "ONLINE") {
+            onlineDropdown.style.display = "block";
+
+            // Load options
+            onlineDropdown.innerHTML = '<option value="">Select Platform</option>';
+
+            onlineList.forEach(item => {
+                let opt = document.createElement("option");
+                opt.value = item;
+                opt.textContent = item;
+                onlineDropdown.appendChild(opt);
+            });
+        }
+    }
+});
+
+document.getElementById("mobile").addEventListener("blur", function() {
+
+    let mobile = this.value;
+
+    if (mobile.length < 10) return;
+
+    fetch(`/get-customer?mobile=${mobile}`)
+        .then(res => res.json())
+        .then(data => {
+
+            if (data.found) {
+
+                // ✅ define confirm here
+                let confirmFill = confirm("Customer already exists. Load details?");
+
+                if (confirmFill) {
+
+                    document.getElementById("name").value = data.name || "";
+                    document.getElementById("address").value = data.address || "";
+                    document.getElementById("address1").value = data.address1 || "";
+                    document.getElementById("city").value = data.city || "";
+                    document.getElementById("pincode").value = data.pincode || "";
+                    document.getElementById("email").value = data.email || "";
+                    document.getElementById("gstin").value = data.gstin || "";
+
+                    // ✅ state handling
+                    let stateDropdown = document.getElementById("state");
+                    for (let i = 0; i < stateDropdown.options.length; i++) {
+                        if (stateDropdown.options[i].value === data.state) {
+                            stateDropdown.selectedIndex = i;
+                            break;
+                        }
+                    }
+                    stateDropdown.dispatchEvent(new Event('change'));
+                }
+            }
+        });
+});    
+
+function applyPartnerRules() {
+
+    let isPartner = document.getElementById("customer_type").value === "PARTNERS";
+
+    document.querySelectorAll(".product-box").forEach(box => {
+
+        let fields = box.querySelectorAll(`
+            .purchase-type,
+            .online-platform,
+            .invoice-file,
+            input[name='serial[]'],
+            input[name='shop_name[]'],
+            select[name='problem[]'],
+            select[name='warranty[]'],
+            input[name='bill[]'],
+            input[name='date[]']
+        `);
+
+        fields.forEach(el => {
+            if (!el) return;
+
+            // 🔥 1. Hide / show
+            el.style.display = isPartner ? "none" : "";
+
+            // 🔥 2. Disable / enable input (IMPORTANT)
+            el.disabled = isPartner;
+
+            // 🔥 3. Handle required dynamically
+            if (isPartner) {
+                el.dataset.originalRequired = el.required; // store original state
+                el.required = false; // remove mandatory rule
+
+                // optional cleanup
+                if (el.tagName === "INPUT" || el.tagName === "SELECT") {
+                    el.value = "";
+                }
+            } else {
+                // restore required if it was originally required
+                if (el.dataset.originalRequired === "true") {
+                    el.required = true;
+                }
+            }
+        });
+
+        // Labels
+        box.querySelectorAll(".l1, .l2").forEach(lbl => {
+            lbl.style.display = isPartner ? "none" : "";
+        });
+
+    });
+}
+document.getElementById("customer_type").addEventListener("change", function () {
+    applyPartnerRules();
+});
+    
+</script>
+
+</body>
+</html>
