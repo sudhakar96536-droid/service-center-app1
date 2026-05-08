@@ -1,0 +1,774 @@
+{
+  "TRIPURA": [
+    {
+      "branch": "AGARTALA ASP",
+      "add1": "AGARTALA\nZEB CARE\nAddress: C/o JOY GURU COMPUTER, 37 A K ROAD, SANTOSH MARKET,\nWEST TRIPURA, AGARTALA, TRIPURA - 799001\nMOB: 8787339568\nE-Mail: agartala.asp@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "UTTAR PRADESH": [
+    {
+      "branch": "AGRA",
+      "add1": "AGRA\nZEB CARE\nSHOP NO. 13 (BASEMENT FLOOR), AT RAMAN TOWER,\nBLOCK NO.-13/6, SANJAY PLACE,\nAGRA, UTTAR PRADESH - 282002\nMobile: 05624013100\nE-Mail: agra.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "ALIGARH ASP",
+      "add1": "ALIGARH\nZEB CARE\nAddress: C/o DEV ENTERPRISES,\nKINGS WAY PLAZA, OPP S M B INTER COLLEGE, RAMGHAT ROAD,\nALIGARH, UTTAR PRADESH - 202001\nMobile: 8266815000, 9410066679\nE-Mail: aligarh.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "ALLAHABAD",
+      "add1": "Allahabad\nZEB CARE\nAddress: Shop No. 7 & 8 Bihari bhawan, 8/1 SP Marg, Allahabad, UP-211001.\nMobile:9025701293\nE-Mail: allahabad.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "BANDA ASP",
+      "add1": "BANDA ASP\nZEB CARE\nC/o- UNIVERSAL SERVICE,\nBUILDING NO 497, SHOP NO 8, GROUND FLOOR,\nNEAR VICTORIA MEDICAL, NAJIB MARKET, DAV COLLEGE ROAD, CHOUK BAZAAR,\nBANDA, UTTAR PRADESH - 210001\nContact No: 8840149781\nE-Mail: banda.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "BAREILLY",
+      "add1": "Bareilly\nZEB CARE\nAddress: E-52 2ND\u00a0FLOOR, BUTLER\u00a0PLAZA,CIVIL LINES,\nBAREILLY, UTTAR PRADESH  - 243001.\nMobile: 9025715753\nE-Mail: bareilly.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "BIJNOR ASP",
+      "add1": "BIJNOR ASP\nZEB CARE\nC/o- ANSH ENTERPRISES\nBAKLI  ROAD BUKHARA, OPPOSITE SHARMA TENT HOUSE,\nNEAR BHARAT PETROLIUM,\nBIJNOR, UTTAR PRADESH - 246701\nContact No: 9627119617\nE-Mail:bijnor.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "GHAZIABAD RAJBAGH",
+      "add1": "ZEB CARE\nINDUSTRIAL PLOT NO. 32, NCR COMPOUND, NEAR RAJBAGH METRO STATION\nVILLAGE - KARKAR MARDAN PARGANA, LONI,\nGHAZIABAD, UTTAR PRADESH - 201005\nCONT : 7827695512\nE-Mail: ghaziabad.onsite@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "GHAZIABAD ZONAL HUB",
+      "add1": "Ghaziabad\nZEB CARE\nAddress: OFFICE NO-312 3RD FLOOR, HANS PLAZA,\nCOMPLEX AT PLOT NO-A11, AMBEDKAR ROAD,\nGHAZIABAD, UTTAR PRADESH - 201001\nMobile: 9003003893\nE-Mail: ghaziabad.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "GORAKHPUR",
+      "add1": "ZEB CARE\nNO: 288D, GROUND FLOOR PURDILPUR, NEAR PRADEEP PLACE,\nGORAKHPUR, UTTAR PRADESH - 273001\nMob: 9360953697\nE-Mail: gorakhpur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "JHANSI ASP",
+      "add1": "JHANSI\nZEB CARE\nC/O PRERNA INFOTECH PLOT NO : 125/5A, CIVIL LINE NEAR SALES TAX OFFICE, JHANSI - 284001\nMOBILE: 9532143276, 9451458355, 7905465470\nE-Mail: jhansi.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "KANPUR",
+      "add1": "Kanpur\nZEB CARE\nAddress: HOP NO: F.F.A-24 ,THIRD FLOOR, SOM DUTT PLAZA,\nKANPUR, UTTAR PRADESH - 208001\nPhone: 05124028150\nE-Mail: kanpur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "LUCKNOW ZONAL HUB",
+      "add1": "Lucknow\nZEB CARE\nAddress: KATYAYANI, 47/5, PRAG NARAIN ROAD\nLucknow, Uttar Pradesh - 226001\nMobile: 7081002759, 7081600342\nE-Mail: lucknow.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "MATHURA ASP",
+      "add1": "MATHURA\nZEB CARE\nAddress: C/o UNISYS COMPUTERS,\n229, DD PLAZA, JUNCTION ROAD,\nMATHURA, UTTAR PRADESH - 281001\nMobile: 9760012282, 8267016068\nE-Mail: mathura.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "MEERUT",
+      "add1": "MEERUT\nZEB CARE\nAddress: G-10 DURGA COMPLEX, OPP UPPER INDIA DAIRY,\nMEERUT, UTTAR PRADESH - 250001\nCONT: 6382615264\nE-Mail: meerut.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "MORADABAD",
+      "add1": "MORADABAD\nZEB CARE\nAddress: 215D, 2'ND FLOOR, SUPER BAZAR, BUDH BAZAR,\nMORADABAD, UTTAR PRADESH - 244001\nMobile: 7010076739\nE-Mail: moradabad.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "MUZAFFARNAGAR ASP",
+      "add1": "Muzaffarnagar\nZEB CARE\nAddress: Shop No. 32. Kamdhenu market, Ansari road, Muzaffarnagar, Uttar pradesh - 251001.\nMobile: 08755522281\nE-Mail: muzaffarnagar.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "NAZA LUCKNOW",
+      "add1": "ZEB CARE\nAddress: SHOP NO.3, 2ND FLOOR,\nHI TECH PLAZA, NAZA MARKET - LAL BAGH,\nLUCKNOW, UTTAR PRADESH - 226001\nMobile:  7499867389\nE-Mail: naza.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "NORTH REGIONAL HUB",
+      "add1": "ZEB CARE\nINDUSTRIAL PLOT NO. 32, NCR COMPOUND, NEAR RAJBAGH METRO STATION\nVILLAGE - KARKAR MARDAN PARGANA, LONI,\nGHAZIABAD, UTTAR PRADESH - 201005\nCONT : 9999123151",
+      "add2": "Add2"
+    },
+    {
+      "branch": "SAHARANPUR ASP",
+      "add1": "ZEB CARE\nAddress: C/o MEGA HERTZ TECHNOLOGIES,\nSHOP NO 10, PAWAN BELA MARKET, COURT ROAD,\nSAHARANPUR, UTTAR PRADESH - 247001.\nMOB: 7248870006\nE-Mail: saharanpur.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "VARANASI",
+      "add1": "Varanasi\nZEB CARE\nAddress: C-21/4-A Loha Mandi Chouraha Near Vishal Lown maldahiya Varanasi - 221002.\nMobile: 9580815550\nE-Mail: varanasi.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "GUJARAT": [
+    {
+      "branch": "AHMEDABAD ZONAL HUB",
+      "add1": "SHOP NO 302 GALA EMPIRE, TV TOWER,\nDRIVE IN ROAD,NILMANI SOCIETY,THALTEJ,\nAHMEDABAD,GUJARAT-380052\nPhone: 079-48001440\nMobile: 8980035382\nE-Mail: ahm.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "RAJKOT",
+      "add1": "Rajkot\nZEB CARE\nAddress: No. NO 204, V V COMPLEX,\nDHEBAR ROAD, NEAR BHUTKHANA CHOWK,\nRAJKOT, GUJARAT - 360001\nMobile: 8056005821\nE-Mail: rajkot.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "SURAT",
+      "add1": "ZEB CARE\n3RD, FLOOR OFFICE - 301 & 302 ANJANI COMPLEX,\nSADAK STREET, TIMALIYAWAD, NANPURA,\nSURAT, GUJARAT - 395001\nMobile: 9360953698\nE-Mail: surat.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "VADODARA",
+      "add1": "Vadodara\nZEB CARE\nAddress: FF 41 , FIRST FLOOR, ALANKAR TOWER , SAYAJIGUNJ,\nVADODARA, GUJARAT - 390020\nPH: 7010076746\nE-Mail: vadodara.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "MAHARASHTRA": [
+    {
+      "branch": "AHMEDNAGAR ASP",
+      "add1": "AHMEDNAGAR ASP\nZEB CARE\nAddress: C/o GAYATRI ENTERPRISES,\nB3 AADHARSH SAMRUDHI BUILDING, CHAUPATI KARANJA,\nAHMEDNAGAR, MAHARASHTRA - 414001\nMobile:  7020415302, 9373317179\nE-Mail: ahmednagar.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "AKOLA",
+      "add1": "AKOLA\nZEB CARE\nAddress: SHOP NO 50, FIRST FLOOR, GMD MARKET, RAMNAGAR,\nAKOLA, MAHARASHTRA - 444005\nCONT: 7550240372\nE-Mail: akola.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "AMRAVATI",
+      "add1": "Zeb Care\nNo\u00a0509/6, Second Floor, Namuna Galli No 4,\nAmravati, Maharashtra - 444601\nMobile: 9653466913\nE-Mail: amravati.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "ANDHERI EAST",
+      "add1": "ANDHERI EAST\nZEB CARE\nAddress: OFFICE NO. 10, 1ST FLOOR, ANNAPURNA SADAN WELFARE SOCIETY,\nCOMPOUND OF MOONLIGHT APARTMENT, NEAR VISHAL HALL,\nMUMBAI, ANDHERI EAST, MAHARASHTRA - 400069\nCONT: 9025702440\nE-Mail: andheri.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "JALGAON ASP",
+      "add1": "ZEB CARE\nAddress: C/o SIDDHI ENTERPRISES,\nE-84 FIRST FLOOR, GOLANI MARKET,\nJALGAON, MAHARASHTRA - 425001\nMobile:  9175038986, 9175028984\nE-Mail: jalgaon.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "KALYAN",
+      "add1": "ZEB CARE\nOffice No 16, Cabin No 1, 3rd Floor, Sudhanshu Chamber, A Wing, Station Road, Kalyan (West) - 421301, Maharashtra\nMobile: 7045929462\nE-Mail: kalyan.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "KOLHAPUR",
+      "add1": "KOLHAPUR\nZEB CARE\nAddress: 935/E, SHAHUPURI,\nKOLHAPUR, MAHARASHTRA - 416001\nCONT: 9360953691\nE-Mail: kolhapur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "MUMBAI ZONAL HUB",
+      "add1": "Mumbai\nZEB CARE\nAddress: 4G, 4th Floor, Naaz Cinema, Lamington Road, Mumbai - 400004.\nMobile: 9345955213\nE-Mail: mumbai.service2@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "NAGPUR ZONAL HUB",
+      "add1": "Nagpur\nZEB CARE\nAddress: Office No 11, Mahalaxmi Apartment,\n2nd Floor, Near Baheti Hospital, \nDhantoli, Nagpur - 440012.\nMobile: 7806800595\nE-Mail: nagpur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "NANDED",
+      "add1": "NANDED\nZEB CARE\nAddress: H. NO, 1-17-884 KAILASH NAGAR,\nNEAR WARK SHOP ROAD,\nNANDED, MAHARASHTRA - 431602\nCONT: 7219460263\nE-Mail: nanded.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "NASHIK ASP",
+      "add1": "ZEB CARE\nAddress: C/o S R ENTERPRISES,\nFLAT NO 4, 2nd FLOOR, KUSUMPUSHPA APARTMENT, COLLEGE ROAD, YEOLEKAR MALA,\nNASHIK, MAHARASHTRA - 422005\nCONT: 8888730027\nE-Mail: nashik.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "PIMPRI ASP",
+      "add1": "PIMPRI\nZEB CARE\nAddress: C/o. HAFEEJA ENTERPRISES,\nSHOP NO 302 OPP H B - 10, PIMPRI CAMP, PIMPRI,\nPUNE, MAHARASHTRA - 411017\nMob: 7040324343\nE-Mail: pimpri.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "PUNE ZONAL HUB",
+      "add1": "Pune\nZEB CARE\nAddress: Ganaraj Building, No 230/12/1 Shukrawarpeth, \nNear Bafana, Petrol Pump, Pune, Maharashtra-411002 .\nMob:9345919036\nE-Mail: pune.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "RATNAGIRI ASP",
+      "add1": "ZEB CARE\nAddress: C/o BINARY WORLD,\nFIRST FLOOR, 104, ARIHANT TOWER, MALNAKA,\nRATNAGIRI, MAHARASHTRA - 415612\nMobile:  9049022444, 8999869966\nE-Mail: ratnagiri.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "SAMBHAJINAGAR",
+      "add1": "CHHATRAPATI SAMBHAJINAGAR\nZEB CARE\nAddress: V8JF+WC, SHOP NO 2, BILWAKUNJ PLAZA, 360, NIRALA BAZAR ROAD,\nSWATANTRYA SAINIK COLONY, NAGESHWARWADI,\nCHHATRAPATI SAMBHAJINAGAR, MAHARASHTRA - 431001\nCONT: 9999123156\nE-Mail: sambhajinagar.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "SOLAPUR ASP",
+      "add1": "ZEB CARE\nAddress: C/o TAPASVI COMPUTER SERVICES,\nSHOP NO 2, ASHIRWAD COMPLEX, NORTH SADAR BAZAR, \nSOLAPUR, MAHARASHTRA - 413003.\nMOB: 9850908070\nE-Mail: solapur.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "THANE",
+      "add1": "ZEB CARE\nAddress:Office No. 1, First Floor, Shri Gajanan Comm,\nDatt Mandir Road, Near Cidco Bus Stop,\nThane West, Maharashtra - 400602\nMobile: 9360953710\nE-Mail: thane.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "VASAI",
+      "add1": "ZEB CARE\nOFFICE NO. 301, 3RD FLOOR,MARUTI PLAZA,\nNEAR MAHANAGAR PALIKA OFFICE,PALGHAR,\nVASAI, MAHARASHTRA - 401202\nMobile: 9360953652\nE-Mail: vasai.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "VASHI",
+      "add1": "Vashi\nZEB CARE\nNO 301 ,3RD FLOOR, OM RACHANA CHSL,\nSECTOR 17 NAVI MUMBAI,\nVASHI, MAHARASHTRA - 400703\nPhone:022-49723539\nE-Mail:vashi.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "RAJASTHAN": [
+    {
+      "branch": "ALWAR ASP",
+      "add1": "ZEB CARE\nC/o : VINAYAK COMPUTER AND MOBILE,\nB5, MAA VAISANAVI COMPLEX, CIVIL LINE, DANGA BHAWAN KE PASS,\nALWAR, RAJASTHAN - 301001\nMobile: 9351353066, 9887527706\nE-Mail: alwar.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "GANGANAGAR ASP",
+      "add1": "Ganganagar (ASP)\nZEB CARE\nAddress: N S Communication, First Floor, 57, Patel Market,\nSri Ganganagar, Rajasthan - 335001.\nMobile: 9799597989\nE-Mail: ganganagar.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "JAIPUR ZONAL HUB",
+      "add1": "Jaipur\nZEB CARE\nAddress: 506, Anand Chamber 3rd Floor, Baba Harish Chandra Marg, Jaipur - 302001. Rajasthan.\nPhone: 0141-4031143\nE-Mail: \u200b\u200bjaipur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "JODHPUR",
+      "add1": "Jodhpur\nZEB CARE\nAddress: No. 129A, First floor, Razdan Mansion, Jalori Gate, Jodhpur - 342001, Rajasthan\nMobile: 8766110999\nE-Mail: jodhpur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "KOTA",
+      "add1": "ZEB CARE\nAddress: NO.13 1st FLOOR,\nOPP TITAN SHOWROOM, GUMANPURA,\nKOTA, RAJASTHAN - 324007\nMOB: 9363453684\nE-Mail: kota.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "UDAIPUR",
+      "add1": "UDAIPUR\nZEB CARE\nF-6, ARMAN COMPLEX,\nMEWAR,MOTOR LINK ROAD,\nUDAIPUR, RAJASTHAN - 313001\nMob:9314395550\nE-Mail:udaipur.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "HARYANA": [
+    {
+      "branch": "AMBALA ASP",
+      "add1": "AMBALA\nZEB CARE\nAddress: C/o DEV RAJ ELECTRONICS,\n119, GANDHI MARKET, AMBALA CANTT,\nAMBALA, HARYANA - 133001\nMobile: 9416667878, 9996567605\nE-Mail: ambala.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "GURGAON",
+      "add1": "GURGAON\nZEB CARE\nAddress: PLOT NO.1349, SUBHASH NAGAR, 1ST FLOOR,\nBEHIND ANIL DENTAL CLINIC, NEAR SHEETLA HOSPITAL, NEW RAILWAY ROAD,\nGURGAON, HARYANA - 122001\nPhone: 0124-4377443\nE-Mail: gurgaon.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "HISAR",
+      "add1": "ZEB CARE\nAddress: SHOP NO -124, SECOND FLOOR,\nRED CROSS MARKET,\nHISAR, HARYANA - 125001\nMOB: 9080956327, 7206515880\nE-Mail: hisar.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "PANIPAT ASP",
+      "add1": "Panipat\nZEB CARE\nAddress: C/o NITIN COMMUNICATION, SHOP NO 74, 1st FLOOR, BMK MARKET,\nNEAR AIRTEL STORE, PANIPAT-HARYANA-132103\nPH:0180-4014131\nE-Mail:panipat.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "ROHTAK ASP",
+      "add1": "Rohtak\nZEB CARE\nAddress: Surya Nagar, Gohana Road, Near Dalal Bhawan, Rohtak, Haryana - 124001.\nMobile: 8950246452, 9813246452\nE-Mail: rohtak.asp@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "CHHATTISGARH": [
+    {
+      "branch": "AMBIKAPUR",
+      "add1": "AMBIKAPUR\nZEB CARE\nAddress: No.728, KEDARPUR,GURU GASIDAS WARD-19, SURGUJA,\nAMBIKAPUR, CHHATTISGARH - 497001\nCONT: 9790744488\nE-Mail: ambikapur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "BILASPUR",
+      "add1": "ZEB CARE\nAddress: SHOP NO 54 AND 55, 2nd FLOOR, AMBE ANJANI E PLAZA,\nCMD CHOWK, BILASPUR, CHHATTISGARH - 495001\nMobile: 9363453672\nE-Mail: raipur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "RAIPUR ZONAL HUB",
+      "add1": "Raipur\nZEB CARE\nAddress: Guru Govind Singh Ward B/H Mata Garage, Near Post Office Pandri, Raipur (CG) - 492001, Chhattisgarh.\nMobile: 7489866692\nE-Mail: raipur.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "PUNJAB": [
+    {
+      "branch": "AMRITSAR",
+      "add1": "Zeb Care\n78, 2nd FLOOR, NEHRU SHOPPING COMPLEX,\nAMRITSAR, PUNJAB - 143001\nMobile: 9363453683\nE-Mail: amritsar.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "BATHINDA ASP",
+      "add1": "BATHINDA ASP\nZEB CARE\nC/o- CITIZEN COMPUTERS\nNO.215, KANWAL CINEMA STREET,\nAMRIK SINGH ROAD, NEAR CANARA BANK,\nBATHINDA, PUNJAB - 151001\nContact No: 0164-5000941, 9814466174, 9872853855\nE-Mail:bathinda.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "JALANDHAR",
+      "add1": "ZEB CARE\n51, 2nd FLOOR, CENTRAL MARKET,\nNEAR NARENDER CINEMA, BEHIND HOTAL RESISTANCY,\nJALANDHAR, PUNJAB - 144001\nCONT NO : 9781480760\nE-Mail: jalandhar.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "LUDHIANA ZONAL HUB",
+      "add1": "Ludhiana\nZEB CARE\nAddress: 88, OFFICE NO 1, 1ST FLOOR, GREEN FIELD, KOCHAR MARKET ROAD, LUDHIANA, PUNJAB - 141002\nMobile: 7550022256\nE-Mail: ludhiana.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "PATIALA ASP",
+      "add1": "Patiala\nZEB CARE\nAddress: C/o TECH SERVICES POINT,\n168/2 JOURIAN BHATIAN, ADJOINING JAIN LEHANGA & DUPATA HOUSE,\nNEAR GARG SALES, PATIALA, PUNJAB - 147001\nMobile: 7696113413\nE-Mail: patiala.asp@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "WEST BENGAL": [
+    {
+      "branch": "ASANSOL",
+      "add1": "Asansol\nZEB CARE\nAddress: Gita Market, GT Road, Near Shree Leather Showroom, Asansol - 713301, West Bengal.\nMobile: 9330763323\nE-Mail: asansol.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "BARDHAMAN ASP",
+      "add1": "ZEB CARE\nC/o : I.T. CAMPUS,\n45/1 KHALUIBILL NMATH, 1ST LANE, BURDWAN,\nBARDHAMAN, WEST BENGAL - 713101\nMobile: 7001063114, 9434665543\nE-Mail: bardhaman.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "BERHAMPORE",
+      "add1": "ZEB CARE\nAddress: 1ST FLOOR, MUNICIPALITY MARKET COMPLEX,\n34/A BABULBONA ROAD, MURSHIDABAD,\nBERHAMPORE, WEST BENGAL - 742101\nMobile: 9330712439\nE-Mail: berhampur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "CANNING ASP",
+      "add1": "ZEB CARE\nAddress: C/o NANDINI ENTERPRISE,\nDUMDUMA, BRINDA KHALI,\n SOUTH TWENTY FOUR PARGANAS, WEST BENGAL - 743387\nCONT: 9126391782, 7551807835\nE-Mail: canning.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "COOCHBEHAR ASP",
+      "add1": "ZEB CARE\nC/o:Satisfied Rajmata Street, Beside Manasabari,Near Polytechnic College and Terminal,Cooch Behar - 736101,West Bengal\nMobile:8145348491\nE-Mail:coochbehar.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "DURGAPUR",
+      "add1": "Durgapur\nZEB CARE\nShweat Barani Bhawan, Kamalpur Plot, Opp Chamber of commerce, Benachity, Durgapur, West Bengal - 713213.\nMobile: 9500173240\nE-Mail: durgapur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "KOLKATA ZONAL HUB / EAST REGIONAL HUB",
+      "add1": "ZEBCARE\nHydari Building, No-36, 6th Floor,Ganesh Chandra Avenue,Police Station-Bowbazar,Kolkata-700 013, West Bengal.\nMob: 9331386745\nE-Mail: kolkata.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "KRISHNAGAR ASP",
+      "add1": "ZEB CARE\nAddress: C/o SARKAR COMMUNICATION,\nD.L.ROY ROAD, BELEDANGA BAZAAR, PS KOTWALI, NADIA,\nKRISHNAGAR, WEST BENGAL - 741101\nCONT: 7679047372\nE-Mail: krishnagar.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "MALDA",
+      "add1": "MALDA\nZEB CARE\nAddress: ROOM NO C /27,1ST FLOOR,\u00a0RATHBARI,\nHOUSING GATE ,\u00a0ITI MORE,\nMALDA, WEST BENGAL - 731101\nMobile: 9168636424\nE-Mail: malda.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "MECHEDA ASP",
+      "add1": "ZEB CARE\nAddress: C/o SRINIJA TECHNOLOGIES,\nKOLAGHAT, MECHEDA BUS STAND, EAST MEDINIPUR,\nMECHEDA, WEST BENGAL - 721137\nCONT: 9832055055, 7001688169\nE-Mail: mecheda.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "MEDINIPUR ASP",
+      "add1": "ZEB CARE\nAddress: C/o MONDAL ENTERPRISE,\nFLAT NO 1360, DHARMA TRAFFIC MORE,\nMEDINIPUR, PASCHIM MEDINIPUR, WEST BENGAL - 721101\nCONT: 9153651363, 7318955553\nE-Mail: medinipur.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "SILIGURI",
+      "add1": "Siliguri\nZEB CARE\nAddress: No: 66, Raja Rammohan Roy Road, Hakimpara ,Ward No:15. Siliguri - 734001, West Bengal.\nMobile: 9003068173\nE-Mail: siliguri.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "ODISHA": [
+    {
+      "branch": "BALASORE ASP",
+      "add1": "ZEB CARE\nAddress: C/o, CYRUS COMPUTER,\nCHOUDHURY MARKET COMPLEX,1ST FLOOR, GADA GADIA SQUARE,\nBALASORE, ODISHA - 756001.\nMOB: 9338917361\nE-Mail: balasore.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "BHUBANESHWAR ZONAL HUB",
+      "add1": "Bhubaneshwar\nZEB CARE\nPlot No. 358/A, Ground Floor, Saheed Nagar, Khurda. Bhubaneshwar - 751007, Odisha\nMobile: 9861038555,06742950855 \nE-Mail: bhubaneswar.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "BRAHMAPUR ASP",
+      "add1": "BRAHMAPUR\nZEB CARE\nAddress: C/o LAPTOP CARE,\nGANDHI NAGAR, MAIN ROAD,\nBERHAMPUR, ODISHA - 760001 .\nMOB: 9337232384\nE-Mail: brahmapur.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "CUTTACK",
+      "add1": "Cuttack\nZEB CARE\nPlot No - 430/F, Rani Mahal, 1st Floor, Room No, 6, New LIC Colony, Badambadi, Cuttack, Odisha - 753012.\nMobile: 9337186521\nE-Mail: cuttack.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "ROURKELA ASP",
+      "add1": "Rourkela\nZEB CARE\nAddress: C/o ACS Infotech Laxmi Bhawan, 1st Floor, Kachery Road, Udit Nagar, Rourkela , Odisha - 769012\nMobile: 8093298050\nE-Mail: rourkela.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "SAMBALPUR",
+      "add1": "SAMBALPUR\nZEB CARE\nAddress: KANISHIR ROAD, IN FRONT OF INDIAN OIL OFFICE, AITHAPALI,\nSAMBALPUR, ODISHA - 768004\nCONT: 9360942525\nE-Mail: sambalpur.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "KARNATAKA": [
+    {
+      "branch": "BANGALORE ZONAL HUB",
+      "add1": "Bangalore\nZEB CARE\nAddress: 2ND FLOOR, RAJA BUILDING, TOWN HALL, N R ROAD,\nSAME BUILDING OF UNION BANK\nBANGALORE, KARNATAKA - 560002.\nMob: 6264205241, 8305398790\nE-Mail: bangalore.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "BELGAUM ASP",
+      "add1": "ZEB CARE\nAddress: C/o NEW COSMIC TELECOM,\nSHOP NO.20, GROUND FLOOR,CONTONMENT COMPLEX, KHANAPUR ROAD,\nBELGAUM, KARNATAKA - 590001\nCONT: 8095525235, 9738035840\nE-Mail: belgaum.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "BIJAPUR ASP",
+      "add1": "BIJAPUR\nZEB CARE\nC/O.SPARE WORLD : BASEMENT, PRABHAT CLOTH CENTER,OPP RAMMANDIR, MAMADPALLI GALLI, VIJAYAPURA,\nBIJAPUR, KARNATAKA - 586101 \nPHONE: 08352-244700\nMOBILE: 9482597000\nE-Mail: bijapur.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "GULBARGA ASP",
+      "add1": "GULBARGA\nZEB CARE\nC/O ADI ENTERPRISES, SHOP NO 04, 1ST FLOOR ASSEMBLY TOWER,\nBESIDE METHA SCHOOL COURT ROAD KALABURAGI\nGULBARGA, KARNATAKA - 585102\nMobile: 9742265233\nE-Mail: gulbarga.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "HUBLI",
+      "add1": "ZEB CARE\nSHOP NO. 10 & 11, 2nd FLOOR, 'A' BLOCK, USA CENTRE,\nKOPPIKAR ROAD, BEHIND NATIONAL MARKET,\nHUBLI, KARNATAKA - 580028\nCONT: 08364506569\nE-MAIL: hubli@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "MANGALORE",
+      "add1": "MANGALORE\nZEB CARE\nAddress: C 42 DOOR NO 20-2-156-/59, 3RD FLOOR,\nAL RAHABA PLAZA,NELLIKAI ROAD,NEAR STATE BANK,\nMANGALORE, KARNATAKA - 575001\nCONT: 9591576497\nE-Mail: mangalore.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "MYSORE ASP",
+      "add1": "MYSORE\nZEB CARE\nAddress: VIJAY INFOTECH, NO. 75/2, 2nd CROSS, K T STREET KURUBAGERI, LASHAKR MOHALLA,\nMYSORE, KARNATAKA - 570001\nMobile: 9945572198\nE-Mail: mysore.asp@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "BIHAR": [
+    {
+      "branch": "BHAGALPUR ASP",
+      "add1": "BHAGALPUR ASP\nZEB CARE\nC/o- DIGITAL PRO,\nBHURANATH ROAD, KHALIFABAG CHOWK,\nBHAGALPUR, BIHAR - 812002\nContact No: 9334234140\nE-Mail: bhagalpur.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "GAYA",
+      "add1": "Gaya\nZEB CARE\nAddress: Lal Kothi Compound, Kashinath More, Near Anand Cinema Hall, Gaya, Bihar-823001.\nMobile: 7806800585\nE-Mail: zebcare.gaya@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "MUZAFFARPUR",
+      "add1": "ZEB CARE\nNo-147, Second floor, K.L. Plaza, Near Harishabha chowk, Jawahar cinema road, Muzaffarpur - 842002, Bihar.\nMobile: 7488367238\nE-Mail: muzaffarpur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "PATNA ZONAL HUB",
+      "add1": "Patna\nZEB CARE\nAddress: Huda House, 1st Floor, Nearby N Plaza Jamal Road, Patna - 800001. Bihar.\n Mobile: 7564901146,  9308495550\nE-Mail: patna.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "PURNIA",
+      "add1": "Purnia\nZEB CARE\nAddress: M.N. Complex Shop No : 6, Maliya Bari, Khiru Chowk, Bhatta bazar Purnia, Bihar - 854301\nMobile: 9840051178\nE-Mail: \u200b\u200bpurnia.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "MADHYA PRADESH": [
+    {
+      "branch": "BHOPAL",
+      "add1": "BHOPAL\nZEB CARE\nAddress: NO : 2/6 AMBAR COMPLEX, ZONE 2, MP NAGAR, \nBHOPAL, MADHYA PRADESH - 462011\nPhone: 0755-4259115\nE-Mail: bhopal.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "CHHINDWARA",
+      "add1": "CHHINDWARA\nZEB CARE\nAddress: 2nd FLOOR, VARMA COMPLEX, SF NEAR BUS STAND,\nCHHINDWARA, MADHYA PRADESH - 480001\nCONT: 07162352554\nE-Mail: chhindwara.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "GWALIOR ASP",
+      "add1": "ZEB CARE\nC/O Vartika Technology Shinde Ki Chawani Naugaja Road, Kharanje,Wali,Lashkar,Gwalior-474009, MP.\nPhone: 0751-4007833\nMobile: 9300266559\nE-Mail: gwalior.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "INDORE ZONAL HUB",
+      "add1": "103, FIRST FLOOR , INSPIRE 6/1 USHAGUNJ CHHAWNI, JAORA COMPOUND, ABOVE AXIS BANK,  INDORE, MP-452001.\nPhone: 0731-4984179\nMobile: 7806800587\nE-Mail: \u200b\u200bindore.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "JABALPUR",
+      "add1": "JABALPUR\nZEB CARE\nAddress: 76/1, SHEETAL PURI, 1st FLOOR, NEAR SUBH TENT AGENCY, UKHRI ROAD,\nBALDEVBAAG JABALPUR, MADHYA PRADESH - 482002\nPhone: 0761-4003799\nE-Mail: jabalpur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "REWA ASP",
+      "add1": "REWA\nZEB CARE\nAddress: C/o COMPUTER CARE,\n5/8 FIRST FLOOR A BLOCK SHILPI PLAZA,PRAKASH CHOWK ROAD,\nREWA, MADHYA PRADESH - 486001\nMOB: 9425185818\nE-Mail: rewa.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "SAGAR ASP",
+      "add1": "Sagar\nZEB CARE\nAddress: C/o Service Point 01, Bangali Kali Tiraha, GopalGanj Sagar - 470002, MP\nMobile: 8770567491\nE-Mail: sagar.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "SATNA ASP",
+      "add1": "ZEB CARE\nAddress: C/o BROTHERS ENTERPRISES AND TECHNOLOGIES,\nNO 321, LILAWATI SADAN,SIDDHARTH NAGAR,GALI NO 3 BADHAIYA TOLA,\nSATNA, MADHYA PRADESH - 485001\nCONT: 6260453434, 9300453434\nE-Mail: satna.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "WAIDHAN ASP",
+      "add1": "ZEB CARE\nAddress: C/o S P ENTERPRISES,\nNEAR HONDA AGENCY, SHOP NO.345,TALI ROAD, SINGRAULI,\nWAIDHAN, MADHYA PRADESH - 486886\nMOB: 7415787041\nE-Mail: waidhan.asp@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "KERALA": [
+    {
+      "branch": "CALICUT",
+      "add1": "Calicut\nZEB CARE\nAddress: ZAMEEM ARCADE, BEHIND KANNANGANDI, MAVOOR ROAD,\nKOZHIKODE, KERALA-673004\nPhone: 0495-4044464\nE-Mail: calicut.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "COCHIN ZONAL HUB",
+      "add1": "Address: NO: 54/1624 AND 54/1624 -G,\nSUBASH CHANDRA BOSE ROAD, JAWAHAR NAGAR, KADAVANTHARA,\nCOCHIN, KERALA \u2013 682020\nMobile: 9388290567\nE-Mail: kerala.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "KANNUR ASP",
+      "add1": "ZEB CARE\nC/o Ideal Solutions, 3rd Floor, Top land grand bazaar shopping complex d, Kannur, Kerala 670001.\nPhone: 04972705223\nMobile: 8078154807\nE-Mail: kannur.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "THRISSUR",
+      "add1": "THRISSUR\nZEB CARE\nAddress: FABIS ARCADE, 2nd FLOOR, KURIACHIRA,\nTHRISSUR, KERALA - 680006\nCONT: 0487-2083711\nE-Mail: thrissur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "TRIVANDRUM",
+      "add1": "ZEB CARE\nEVRA 40, TC.16 582 - GG ASSOCIATES, GG ENCLAVE,\nESWARA VILASOM ROAD, VAZHUTHACAUD,\nTRIVANDRUM, KERALA - 695014\nPhone: 9962295553\nE-Mail: trivendrum.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "WAYANAD SCP (ASP)",
+      "add1": "WAYANAD\nZEB CARE\nAddress: C/o INSIGHT INFOMATICS,\nUK COMPLEX,CHUNGAM,KALPETTA,\nWAYANAD, KERALA - 673121\nMOB: 9387237074\nE-Mail: wayanad.scp@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "CHANDIGARH": [
+    {
+      "branch": "CHANDIGARH",
+      "add1": "CHANDIGARH\nZEB CARE\nSHOP NO 1703, SANDHU BAZAAR SECTOR 45, BURAIL, OPP GATE NO - 2 DEV SAMAJ COLLAGE,\nCHANDIGARH - 160047\nPhone: 8591684573\nE-Mail: chandigarh.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "TAMIL NADU": [
+    {
+      "branch": "CHENNAI MOUNT ROAD",
+      "add1": "BLOCK NO.12, NEW NO.144, OLD NO.101, SINGANNA CHETTI STREET, CHINTADRIPET,\nCHENNAI, TAMIL NADU - 600002, Ph:04442149116",
+      "add2": "Add2"
+    },
+    {
+      "branch": "COIMBATORE",
+      "add1": "ZEB CARE\n47/D VALLI TOWERS, FIRST FLOOR, RADHAKRISHNA ROAD,\nOPP TO KARUNA SUZUKI,TATABAD,\nCOIMBATORE, TAMIL NADU - 641012\nPhone: 04223504727\nE-Mail: coimbatore.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "MADURAI",
+      "add1": "ZEB CARE\nNo-30, First\u00a0Floor, Krishnarayar Tank Street, Near Hanuman Temple\nMadurai, Tamil Nadu - 625001\nPhone: 0452-4377340\nMobile: 9585352595\nE-Mail: madurai.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "SALEM",
+      "add1": "ZEB CARE\n1ST FLOOR , SJ TOWER, NO 19 A3  LIC COLONY,\nHOTEL VASANTHAM ROAD, OPP TO NEW BUS STAND,\nSalem, Tamil Nadu, 636004\nMobile: 04274041904\nE-Mail: salem.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "TIRUNELVELI",
+      "add1": "TIRUNELVELI\nZEB CARE\nAddress: DOOR NO.24/25, 2nd FLOOR, S.N.HIGH ROAD, S.P.P BUILDING, SRIPURAM,\nTIRUNELVELI, TAMIL NADU - 627001\nCONT: 04624050014\nE-Mail: tirunelveli.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "TRICHY",
+      "add1": "Trichy\nZEB CARE\nAddress: No D2, Second Floor KPRS Towers, No 62/2, Tennur High Road, Tennur, Trichy -620017, Tamil nadu\nPhone: 0431-4051199\nE-Mail: trichy.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "VELLORE ASP",
+      "add1": "VELLORE\nZEB CARE\nAddress: C/o V.K.R ENTERPRISES,\n595, T N H B PHASE 3,SATHUVACHARI,\nVELLORE, TAMIL NADU - 632009\nPH: 7871919290\nE-Mail: vellore.asp@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "JHARKHAND": [
+    {
+      "branch": "DALTONGANJ ASP",
+      "add1": "ZEB CARE\nAddress: C/o MAA MOBILES,\nJAILHATA, JAIL ROAD, NEAR SBI BANK, PALAMU,\nDALTONGANJ, JHARKHAND - 822101\nMOB: 8083226066\nE-Mail: daltonganj.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "DHANBAD",
+      "add1": "DHANBAD\nZEB CARE\nAddress: KARBALA ROAD, 2ND FLOOR, ASHOKA TOWER, BANK MORE,\nDHANBAD, JHARKHAND - 826001\nCONT: 9025723613\nE-Mail: dhanbad.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "JAMSHEDPUR",
+      "add1": "Jamshedpur\nZEB CARE\nAddress: SHOP NO 16, GROUND FLOOR, 508 JAISWAL COMPLEX, SAKCHI,\nJAMSHEDPUR, JHARKHAND - 831001.\nMOB: 7010076759\nE-Mail: jamshedpur.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "RANCHI ZONAL HUB",
+      "add1": "RANCHI\nZEB CARE\nADDRESS: PLOT NO.- 27, P.P. COMPOUND, SINGHEE MARG, NEAR SUJATA CHOWK, RANCHI, JHARKHAND - 834001 \nMOBILE: 9304450776\nE-Mail: ranchi.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "UTTARKHAND": [
+    {
+      "branch": "DEHRADUN ZONAL HUB",
+      "add1": "Dehradun\nZEB CARE\nAddress: No: 74-6-136-129, Nari Shilp Mandir Marg,\nDehradun, Uttarakhand - 248001\nMobile: 9359276068\nE-Mail: dehradun.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "HALDWANI",
+      "add1": "Haldwani\nZEB CARE\nAddress: SHOP NO 9  BASEMENT , SAI COMPLEX, \nMUKHANI KALADHUNGI ROAD, OPP- JAAGNATH PETROL PUMP,\nHALDWANI DISTT, NAINITAL, UTTARAKHAND - 263139\nMobile: 9319794692 \nE-Mail: haldwani.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "HARIDWAR ASP",
+      "add1": "HARIDWAR ASP\nZEB CARE\nC/O STJMK TRADERS,\nNEW HARIDWAR COLONY, HOUSE NO 88,RANIPUR MORE,\nNEAR MATR CHHAYA HOSPITAL,\nHARIDWAR, UTTARAKHAND - 249407\nCONT: 7417092998\nE-Mail: haridwar.asp@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "DELHI": [
+    {
+      "branch": "DELHI ZONAL HUB",
+      "add1": "Delhi - Nehru Place\nZEB CARE\nAddress: OFFICE NO 504, 5TH FLOOR DEEPALI BUILDING,\nBUILDING NO 92, NEHRU PLACE,\nDELHI, DELHI - 110019\nPhone: 9220497301\nE-Mail: delhi.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "JANAKPURI",
+      "add1": "Janakpuri\nZEB CARE\nAddress: No. 207 DDA BUILDING N0-5,\n2ND FLOOR,DISTRICT CENTER,\nJANAKPURI, DELHI - 110058\nPhone:6382615776\nE-Mail: janakpuri.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "LAXMI NAGAR",
+      "add1": "Delhi - Laxmi Nagar\nZEB CARE\nAddress: 13- A U/S/F PVVT No - 303, Plot No -13 Veer Savarkar Block, Shakarpur, Delhi-110092.\nMob: 9080957184\nE-Mail: laxminagar.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "WAZIRPUR",
+      "add1": "Wazirpur\nZEB CARE\nOffice No 411A & 401 first floor Rajendra Jaina,\nTower 18 Commercial Complex\nWazirpur, Delhi-110052\nPhone: 011-45261336\nE-Mail: wazirpur.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "ASSAM": [
+    {
+      "branch": "GUWAHATI ZONAL HUB",
+      "add1": "ZEB CARE\nTarun Nagar, 1st bye lane, Saptharshi Villa, House No. 7, 1st floor, ABC, Near Rajiv bhawan, Guwahati - 781005\nMobile: 9707086555\nE-Mail: guwahati.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "JORHAT ASP",
+      "add1": "ZEB CARE\nAddress: C/o JORHAT COMPUTER SOLUTION,\nCENTRE POINT MARKET,( BIKANER HOTEL COMPLEX ), GAR-ALI, JORHAT, ASSAM - 785001.\nMOB: 9954218393\nE-Mail: jorhat.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "SILCHAR ASP",
+      "add1": "SILCHAR\nZEB CARE\nAddress: C/o SEM,\nTARANI ROAD, RANGIRKHARI,\nSILCHAR, ASSAM  - 788005\nMOB: 9435173583\nE-Mail: silchar.asp@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "MANIPUR": [
+    {
+      "branch": "IMPHAL ASP",
+      "add1": "Imphal\nZEB CARE\nC/O: Aspire Enterprises Food Villa Building, Nagamapal Lamabam Leikai, Imphal, Manipur - 795001\nMobile: 8575001392/7005342438\nE-Mail: \u200b\u200bimphal.asp@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "JAMMU & KASHMIR": [
+    {
+      "branch": "JAMMU ZONAL HUB",
+      "add1": "Jammu\nZEB CARE\nAddress: Ground floor, No 391, Shastri Nagar, Jammu - 180004\nPhone: 0191-2459063\nMobile: 9086008080\nE-Mail: \u200b\u200bjammu.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "SRINAGAR ASP",
+      "add1": "ZEB CARE\nC/o Geo IT Sales & Services,3 Exchange Road,Opp BSNL Customer Care Office,Lalchowk,Srinagar - 190001, Jammu & Kashmir.\nMobile:7006977421\nE-Mail: srinagar.asp@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "ANDHRA PRADESH": [
+    {
+      "branch": "KADAPA ASP",
+      "add1": "Kadapa\nZeb Care\nAddress: C/O. DINESH COMPUTER SOLUTIONS,\n1/73, OLD POST OFFICE BUILDING, YARRAMUKKAPALLI, YSR DISTRICT,\nKADAPA, ANDHRA PRADESH - 516004\nMob - 9700406090, 9700690044\nEmail - kadapa.asp@zebcare.In",
+      "add2": "Add2"
+    },
+    {
+      "branch": "NELLORE ASP",
+      "add1": "NELLORE\nZeb Care\nAddress: C/O. SRI LAKSHMI VENKATESWARA SERVICES,\n1st FLOOR, 25-1-96, SHOP NO 4, PODALAKUR ROAD,HOUSING BOARD COLONY, SRI POTTI SRIRAMULU,\nNELLORE, ANDHRA PRADESH - 524004\nMob - 9133083338, 9533202015\nEmail - nellore.asp@zebcare.In",
+      "add2": "Add2"
+    },
+    {
+      "branch": "RAJAHMUNDRY ASP",
+      "add1": "RAJAHMUNDRY\nZeb Care\nAddress: C/O. KUSHI ENTERPRISES,\n1ST FLOOR, 36-25-24, SRI RAMYA COMMERCIAL BUILDIING,\nSAPPA VARI STREET, INNESPETA, RAJAMAHENDRAVARAM\nRAJAHMUNDRY, ANDHRA PRADESH - 533101\nMob - 9704827839, 8341955551\nEmail - rajahmundry.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "VIJAYAWADA ZONAL HUB",
+      "add1": "VIJAYAWADA\nZEB CARE\nAddress: NO. 27-13-2, FIRST FLOOR, D.T ROAD LANE,\nDASH COLOR LAB STREET, GOVERNORPET\nVIJAYAWADA, ANDHRA PRADESH - 520002\nMobile:6382615764, 9600174644\nE-Mail: vijayawada.service@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "VISAKAPATNAM",
+      "add1": "VISAKAPATNAM\nZEB CARE\nAddress: DOOR NO.50-94-4/2, SANTHIPURAM, \nNEAR SAIBABA TEMPLE, GURUDWARA,\nVISAKHAPATNAM, ANDHRA PRADESH - 530016\nMobile: 7550088873\nE-Mail: vishak.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "TELANGANA": [
+    {
+      "branch": "KHAMMAM ASP",
+      "add1": "KHAMMAM ASP\nZEB CARE\nC/o- SRI DURGA COMPUTERS AND PRINTERS,\n11-3-65, OLD REGISTRATION OFFICE ROAD, NEHRU NAGAR,\nKHAMMAM, TELANGANA - 507001\nContact No: 9494347046, 08742796257\nE-Mail: khammam.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "KOTI ASP",
+      "add1": "Address: C/o SRI SAI TIRUMALA ELECTRONICS,\n4-3-216 TO 265, JAIN MARKET,\n3RD FLOOR, BANK STREET,\nKOTI, HYDERABAD,TELANGANA-500095\nMOB:9963377197 \nE-Mail:koti.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "SECUNDERABAD ZONAL HUB",
+      "add1": "ZEB CARE\nAddress: 613, 6th Floor A Block, Park lane Chenoy Trade Centre, S.D Road Secunderabad, Telangana - 500 003\nPhone: 040-40131480\nE-Mail: secunderabad.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "GOA": [
+    {
+      "branch": "MAPUSA ASP",
+      "add1": "Zeb Care\nIT Care Computers Sales & Service\nNo. 8, Louis Olive Apartment Feira Alto,\nBehind NKGSB Bank,\nMapusa Bardez, Goa - 403507\nMobile: 7744010760\nE-Mail: mapusa.asp@zebcare.in",
+      "add2": "Add2"
+    },
+    {
+      "branch": "MARGAO ASP",
+      "add1": "ZEB CARE\nAddress: C/o, PC Clinik Sales & Service, Y1, Apna Bazar, VV Road, Margao, South Goa, Goa - 403602\nPhone: 0832-2737383\nMobile: 7666672927\nE-Mail: margao.asp@zebcare.in",
+      "add2": "Add2"
+    }
+  ],
+  "PONDICHERRY": [
+    {
+      "branch": "PUDUCHERRY",
+      "add1": "Puducherry\nZEB CARE\nAddress: No 21, First Cross Brindavanam Rajiv Gandhi Nagar, Puducherry - 605013.\nMobile: 9344303095\nE-Mail: pondicherry.service@zebcare.in",
+      "add2": "Add2"
+    }
+  ]
+}
