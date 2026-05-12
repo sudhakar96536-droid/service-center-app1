@@ -3,7 +3,10 @@
 <head>
     <title>Product Complaint Registration</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+    <meta name="theme-color" content="#008000">
+    
     <!-- Select2 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
 
@@ -641,7 +644,7 @@ document.getElementById("customer_type").addEventListener("change", function () 
 });
     
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('{{ url_for("static", filename="sw.js") }}');
+    navigator.serviceWorker.register('{{ url_for("static", filename="sw.js") }}');
 }
     
 </script>
