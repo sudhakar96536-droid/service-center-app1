@@ -640,6 +640,25 @@ function applyPartnerRules() {
 document.getElementById("customer_type").addEventListener("change", function () {
     applyPartnerRules();
 });
+
+
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+
+        navigator.serviceWorker.register('/static/sw.js')
+
+        .then(function(registration) {
+            console.log('SW registered:', registration.scope);
+        })
+
+        .catch(function(error) {
+            console.log('SW registration failed:', error);
+        });
+
+    });
+}
+
+    
     
 </script>
 
