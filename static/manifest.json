@@ -1,13 +1,14 @@
 {
-  "name": "My App",
-  "short_name": "MyApp",
+  "name": "Product Complaint Registration",
+  "short_name": "Zeb Care",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "theme_color": "#28a745",
+  "orientation": "portrait",
   "icons": [
     {
-      "src": "/static/icon-192.png",
+      "src": "/static/icon-1921.png",
       "sizes": "192x192",
       "type": "image/png"
     }
