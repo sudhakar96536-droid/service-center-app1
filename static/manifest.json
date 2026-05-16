@@ -3,8 +3,8 @@
   "short_name": "Zeb Care",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FFC107",
-  "theme_color": "#FFC107",
+  "background_color": "#FFF9C4",
+  "theme_color": "#FFF9C4",
   "orientation": "portrait",
   "icons": [
     {
