@@ -4,6 +4,7 @@ import os
 import json
 import cloudinary
 import cloudinary.uploader
+import requests
 
 cloudinary.config(
     cloud_name="dlcfbkt8c",
@@ -16,12 +17,58 @@ cloudinary.config(
 app = Flask(__name__)
 
 DATABASE_URL = os.environ.get("DATABASE_URL")
+ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN")
+PHONE_NUMBER_ID = os.environ.get("PHONE_NUMBER_ID")
 
 
 def get_conn():
     return psycopg2.connect(DATABASE_URL)
 
+# =========================
+# WHATSAPP TEMPLATE MESSAGE
+# =========================
+def send_whatsapp_confirmation(to, customer_name, ref_number):
 
+    url = f"https://graph.facebook.com/v22.0/{PHONE_NUMBER_ID}/messages"
+
+    headers = {
+        "Authorization": f"Bearer {ACCESS_TOKEN}",
+        "Content-Type": "application/json"
+    }
+
+    data = {
+        "messaging_product": "whatsapp",
+        "to": to,
+        "type": "template",
+        "template": {
+            "name": "complaint_success",
+            "language": {
+                "code": "en"
+            },
+            "components": [
+                {
+                    "type": "body",
+                    "parameters": [
+                        {
+                            "type": "text",
+                            "text": customer_name
+                        },
+                        {
+                            "type": "text",
+                            "text": ref_number
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    response = requests.post(url, headers=headers, json=data)
+
+    print("WHATSAPP RESPONSE:")
+    print(response.status_code)
+    print(response.text)
+    
 # =========================
 # INIT DB
 # =========================
@@ -441,9 +488,36 @@ def submit():
             
         ))
 
-    conn.commit()
-    cur.close()
-    conn.close()
+conn.commit()
+
+# =========================
+# SEND WHATSAPP TEMPLATE
+# =========================
+try:
+
+    whatsapp_number = mobile.strip()
+
+    # remove + if user enters
+    if whatsapp_number.startswith("+"):
+        whatsapp_number = whatsapp_number[1:]
+
+    # add country code if missing
+    if not whatsapp_number.startswith("91"):
+        whatsapp_number = "91" + whatsapp_number
+
+    send_whatsapp_confirmation(
+        whatsapp_number,
+        name,
+        ref_number
+    )
+
+except Exception as e:
+
+    print("WHATSAPP ERROR:")
+    print(str(e))
+
+cur.close()
+conn.close()
 
     return f"""
 <html>
