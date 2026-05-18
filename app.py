@@ -488,36 +488,36 @@ def submit():
             
         ))
 
-conn.commit()
+    conn.commit()
 
-# =========================
-# SEND WHATSAPP TEMPLATE
-# =========================
-try:
+    # =========================
+    # SEND WHATSAPP TEMPLATE
+    # =========================
+    try:
 
-    whatsapp_number = mobile.strip()
+        whatsapp_number = mobile.strip()
 
-    # remove + if user enters
-    if whatsapp_number.startswith("+"):
-        whatsapp_number = whatsapp_number[1:]
+        # remove + if user enters
+        if whatsapp_number.startswith("+"):
+            whatsapp_number = whatsapp_number[1:]
 
-    # add country code if missing
-    if not whatsapp_number.startswith("91"):
-        whatsapp_number = "91" + whatsapp_number
+        # add country code if missing
+        if not whatsapp_number.startswith("91"):
+            whatsapp_number = "91" + whatsapp_number
 
-    send_whatsapp_confirmation(
-        whatsapp_number,
-        name,
-        ref_number
-    )
+        send_whatsapp_confirmation(
+            whatsapp_number,
+            name,
+            ref_number
+        )
 
-except Exception as e:
+    except Exception as e:
 
-    print("WHATSAPP ERROR:")
-    print(str(e))
+        print("WHATSAPP ERROR:")
+        print(str(e))
 
-cur.close()
-conn.close()
+    cur.close()
+    conn.close()
 
     return f"""
 <html>
